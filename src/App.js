@@ -6,21 +6,19 @@ function App() {
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
+          GitHub Codespaces <span className="heart">♥️</span> React + Github Pages
         </p>
 
-        <p className="small">Hey, I'm Elvann! npm run deploy!</p>
+        <p className="small">Use this as a template to to start your react project & host it with Github Pages!</p>
+      
         <p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://github.com/ElvannAbendroth/react-page-template"
             target="_blank"
-            rel="noopener noreferrer"
+            
           >
-            Learn React
+            Checkout Repository
           </a>
         </p>
       </header>
