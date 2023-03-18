@@ -35,6 +35,4 @@ I haven't tested this, but this is what I found 🤷‍♀️.  I'm assuming the
 "homepage": "https://{gitusername}.github.io"
 ```
 
-## You're Done!
-
-Enjoy!
+## You're Done!  GLHF!
