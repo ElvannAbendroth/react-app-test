@@ -14,21 +14,21 @@ To know more about how to configure a repository for hosting a react app on Gith
 3. Add `"homepage": "https://{gitusername}.github.io/{project-name}"` to ``package.json
 4.  Add deployement scripts:
 
-``
+```
 ...
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
 ...
-``
+```
 
 If you're using a github user page instead of a project page, you'll need to use this instead, where `main` can be replaced by the name of you main or master branch:
 
-``
+```
 ...
     "predeploy": "npm run build",
     "deploy": "gh-pages -b {main} -d build",
 ...
-``
+```
 
 ## Deploy Project
 
