@@ -6,34 +6,20 @@ This project template is hosted by Github Pages here: https://elvannabendroth.gi
 To know more about how this respository and codespace work together, check out https://github.com/github/codespaces-react
 
 
-## How to Host your React App with Github Pages
+## How Host Your React App Project with Github Page
 
-Here's a quick summary of how to use this template and setup a react project to be hosted with Github Pages.  You can find a more in-depth step-by-step tutorial here: https://github.com/gitname/react-gh-pages
-
-1. Create a new repository and install a react application.  Replace {project-name} with the name of the project you want.
-
-```
-npx create-react-app {project-name}
-```
- Make sure the repository is public.
- 
-2. Install gh-pages as a developement dependency:
-
-```
-npm install gh-pages --save-dev
-```
-
-3. Add the homepage link to your `package.json` file.
+1. Click "use this template" and choose create a new repository
+2. Copy the new repository link and create a remote using `git clone {your-repo-link}`
+3. Change the property of "homepage" in `package.json` to your github page link.  The project name can be anything you decide, but the root URL has to be your git username.
 ```
 "homepage": "https://{gitusername}.github.io/{project-name}"
 ```
+4. Run `npm install`
+5. Code an awesome react app
+6. When you're ready to deploy, run `npm run deploy` in the terminal.
 
-4.  Add deployement scripts:
 
-``` json
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-```
+### Using the github User Page Instead
 
 If you're using a github user page instead of a project page, you'll need to use this instead, where `main` can be replaced by the name of you main or master branch:
 
@@ -41,7 +27,11 @@ If you're using a github user page instead of a project page, you'll need to use
     "predeploy": "npm run build",
     "deploy": "gh-pages -b {main} -d build",
 ```
+I haven't tested this, but this is what I found 🤷‍♀️.  I'm assuming the homepage link in `package.json` might need to look like this instead:
 
+```
+"homepage": "https://{gitusername}.github.io"
+```
 
 ## Deploy Project
 
