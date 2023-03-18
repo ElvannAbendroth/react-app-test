@@ -1,4 +1,4 @@
-# GitHub Codespaces ♥️ React
+# GitHub Pages for React ♥️
 
 Welcome to this test repository provided by Codespace and Github pages!
 
