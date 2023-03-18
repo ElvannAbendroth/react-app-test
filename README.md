@@ -1,4 +1,4 @@
-# GitHub Pages for React ♥️
+# GitHub Pages Template for React ♥️
 
 Welcome to this test repository provided by Codespace and Github pages!
 
@@ -9,9 +9,24 @@ To know more about how to configure a repository for hosting a react app on Gith
 
 ## Creating This Project From Scratch
 
-1. Create a new repository and install `npx create-react-app {project-name}`.  Make sure the repository is public.
-2. Run `npm install gh-pages --save-dev` to install gh-pages as a developement dependency.
-3. Add `"homepage": "https://{gitusername}.github.io/{project-name}"` to ``package.json
+1. Create a new repository and install a react application.  Replace {project-name} with the name of the project you want.
+
+```
+npx create-react-app {project-name}
+```
+ Make sure the repository is public.
+ 
+2. Install gh-pages as a developement dependency:
+
+```
+npm install gh-pages --save-dev
+```
+
+3. Add the homepage link to your `package.json` file.
+```
+"homepage": "https://{gitusername}.github.io/{project-name}"
+```
+
 4.  Add deployement scripts:
 
 ``` json
