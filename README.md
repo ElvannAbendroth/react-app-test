@@ -1,13 +1,14 @@
 # GitHub Pages Template for React ♥️
 
-Welcome to this test repository provided by Codespace and Github pages!  This project template is hosted by Github Pages here: https://elvannabendroth.github.io/react-page-template/
+Welcome to this template repository provided by Codespace and Github pages!  
+This project template is hosted by Github Pages here: https://elvannabendroth.github.io/react-page-template/
 
 To know more about how this respository and codespace work together, check out https://github.com/github/codespaces-react
 
-To know more about how to configure a repository for hosting a react app on Github Pages, visit this link: https://github.com/gitname/react-gh-pages
 
+## How to Host your React App with Github Pages
 
-## Creating This Project From Scratch
+Here's a quick summary of how to use this template and setup a react project to be hosted with Github Pages.  You can find a more in-depth step-by-step tutorial here: https://github.com/gitname/react-gh-pages
 
 1. Create a new repository and install a react application.  Replace {project-name} with the name of the project you want.
 
@@ -50,6 +51,8 @@ That will cause the predeploy and deploy commands to run.
 
 Go in the reposotory settings, navigate to the Pages tab and choose `deploy from a branch` as the source, and ph-pages/(root) as the build branch.
 
-Your react app with now be available a the link mentionned in `package.json`
+## You're Done!
+
+Your react app with now be available a the link mentionned in `package.json` .  For this project, the link is: https://elvannabendroth.github.io/react-page-template/
 
 Enjoy!
