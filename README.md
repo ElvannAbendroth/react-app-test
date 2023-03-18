@@ -45,7 +45,7 @@ If you're using a github user page instead of a project page, you'll need to use
 
 In order to deploy this project, use `npm run deploy`
 
-That will cause the predeploy and deploy commands to run and will make the changes available on https://elvannabendroth.github.io/react-app-test/
+That will cause the predeploy and deploy commands to run and will make the changes available on https://elvannabendroth.github.io/react-page-template/
 
 
 Enjoy!
