@@ -17,7 +17,7 @@ To know more about how this respository and codespace work together, check out h
 4. Run `npm install`
 5. Code an awesome react app
 6. When you're ready to deploy, run `npm run deploy` in the terminal.
-
+7. Setup your github page repository: Go in the reposotory settings, navigate to the Pages tab and choose `deploy from a branch` as the source, and ph-pages/(root) as the build branch.
 
 ### Using the github User Page Instead
 
@@ -33,16 +33,8 @@ I haven't tested this, but this is what I found 🤷‍♀️.  I'm assuming the
 "homepage": "https://{gitusername}.github.io"
 ```
 
-## Deploy Project
-
-In order to deploy this project, use `npm run deploy`
-
-That will cause the predeploy and deploy commands to run.
-
-Go in the reposotory settings, navigate to the Pages tab and choose `deploy from a branch` as the source, and ph-pages/(root) as the build branch.
-
 ## You're Done!
 
-Your react app with now be available a the link mentionned in `package.json` .  For this project, the link is: https://elvannabendroth.github.io/react-page-template/
+Your react app with now be available a the link mentionned in the homepage property of your `package.json` file ( `https://{gitusername}.github.io/{project-name}`) .  For this project, the link is: https://elvannabendroth.github.io/react-page-template/
 
 Enjoy!
