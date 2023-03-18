@@ -3,8 +3,7 @@
 Welcome to this template repository provided by Codespace and Github pages!  
 This project template is hosted by Github Pages here: https://elvannabendroth.github.io/react-page-template/
 
-To know more about how this respository and codespace work together, check out https://github.com/github/codespaces-react
-
+If this tutorial isn't clear enough, you need more info or you want to do it yourself from scratch, check out react-gh-pages: https://github.com/gitname/react-gh-pages
 
 ## How Host Your React App Project with Github Page
 
@@ -19,7 +18,7 @@ To know more about how this respository and codespace work together, check out h
 6. When you're ready to deploy, run `npm run deploy` in the terminal.
 7. Setup your github page repository: Go in the reposotory settings, navigate to the Pages tab and choose `deploy from a branch` as the source, and ph-pages/(root) as the build branch.
 
-Your react app with now be available a the link mentionned in the homepage property of your `package.json` file ( `https://{gitusername}.github.io/{project-name}`) .  For this project, the link is: https://elvannabendroth.github.io/react-page-template/
+Your react app with now be available a the link mentionned in the homepage property of your `package.json` file ( `https://{gitusername}.github.io/{project-name}`) .
 
 ### Using the github User Page Instead
 
@@ -36,3 +35,4 @@ I haven't tested this, but this is what I found 🤷‍♀️.  I'm assuming the
 ```
 
 ## You're Done!  GLHF!
+If this tutorial isn't clear enough, you need more info or you want to do it yourself from scratch, check out react-gh-pages: https://github.com/gitname/react-gh-pages
