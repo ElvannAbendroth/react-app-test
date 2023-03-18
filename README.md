@@ -12,7 +12,7 @@ To know more about how this respository and codespace work together, check out h
 2. Copy the new repository link and create a remote using `git clone {your-repo-link}`
 3. Change the property of "homepage" in `package.json` to your github page link.  The project name can be anything you decide, but the root URL has to be your git username.
 ``` json
-"homepage": "https://{gitusername}.github.io/{project-name}"
+    "homepage": "https://{gitusername}.github.io/{project-name}"
 ```
 4. Run `npm install`
 5. Code an awesome react app
@@ -32,7 +32,7 @@ If you're using a github user page instead of a project page, you'll need to use
 I haven't tested this, but this is what I found 🤷‍♀️.  I'm assuming the homepage link in `package.json` might need to look like this instead:
 
 ``` json
-"homepage": "https://{gitusername}.github.io"
+    "homepage": "https://{gitusername}.github.io"
 ```
 
 ## You're Done!  GLHF!
