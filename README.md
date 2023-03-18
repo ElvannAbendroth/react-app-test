@@ -19,6 +19,8 @@ To know more about how this respository and codespace work together, check out h
 6. When you're ready to deploy, run `npm run deploy` in the terminal.
 7. Setup your github page repository: Go in the reposotory settings, navigate to the Pages tab and choose `deploy from a branch` as the source, and ph-pages/(root) as the build branch.
 
+Your react app with now be available a the link mentionned in the homepage property of your `package.json` file ( `https://{gitusername}.github.io/{project-name}`) .  For this project, the link is: https://elvannabendroth.github.io/react-page-template/
+
 ### Using the github User Page Instead
 
 If you're using a github user page instead of a project page, you'll need to use this instead, where `main` can be replaced by the name of you main or master branch:
@@ -35,6 +37,8 @@ I haven't tested this, but this is what I found 🤷‍♀️.  I'm assuming the
 
 ## You're Done!
 
-Your react app with now be available a the link mentionned in the homepage property of your `package.json` file ( `https://{gitusername}.github.io/{project-name}`) .  For this project, the link is: https://elvannabendroth.github.io/react-page-template/
+Enjoy!
+
+
 
 Enjoy!
